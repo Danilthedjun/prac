@@ -32,4 +32,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  object-fit: cover;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
